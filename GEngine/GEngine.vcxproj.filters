@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\FG">
+      <UniqueIdentifier>{e8278cb2-8dd5-4716-9456-10e51420143d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Other">
+      <UniqueIdentifier>{6862d9cc-801a-481a-ac50-02cfb40cbcaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\FG">
+      <UniqueIdentifier>{6464f845-8856-425d-87d1-c599cca7ecb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Other">
+      <UniqueIdentifier>{c9a2751f-b981-4e78-88aa-4cbc7fd1affe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GEngine Classes">
+      <UniqueIdentifier>{6721e78c-a8b3-484c-8ff7-e99ea74dde68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\UI Classes">
+      <UniqueIdentifier>{3efa3887-0bd6-469b-8966-abd83fb22d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GPlugins">
+      <UniqueIdentifier>{8123befc-c3ab-47f0-8694-4d9a5709697a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GPlugins">
+      <UniqueIdentifier>{009fb515-1933-4e48-98fc-e5aed5029597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GPlugins\__zip">
+      <UniqueIdentifier>{3ec4875f-138e-4e11-b476-c81eebc3f715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GPlugins\__zip">
+      <UniqueIdentifier>{e0e851e3-e664-4e96-905b-70e22d8c4eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GSound">
+      <UniqueIdentifier>{d2ccd5f2-0e31-407e-80b6-c0811505b7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GSound">
+      <UniqueIdentifier>{d51f5da4-7911-47a2-9fbb-89a262e0abf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\UI Classes">
+      <UniqueIdentifier>{4707fc9c-9143-413a-9152-7fee5b85264d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\UI Classes\Base">
+      <UniqueIdentifier>{7ba55782-788f-4ba6-b865-dad35a83c714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GEngine Classes">
+      <UniqueIdentifier>{c94c3b70-ce5b-48de-b090-63b5323c6791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GEngine Classes\Base">
+      <UniqueIdentifier>{32aa5227-8270-4b1a-bc29-d026073b4ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GEngine Classes\Base">
+      <UniqueIdentifier>{b37bd462-71c1-4708-977d-12c0fa539d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\UI Classes\Base">
+      <UniqueIdentifier>{0e58e305-71fe-4f29-aa26-05986e4419b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game Classes">
+      <UniqueIdentifier>{f4e2967a-d1d2-4722-8ecd-0b513e6ffd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game Classes\Base">
+      <UniqueIdentifier>{5a64e120-0715-4dfd-9b59-627d1eee7d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game Classes">
+      <UniqueIdentifier>{6874f71b-4b73-41d3-996a-39eebe0c1d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game Classes\Base">
+      <UniqueIdentifier>{813e9c32-a209-40aa-a4e0-1e4c53b180e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GEngine Classes\Animation">
+      <UniqueIdentifier>{ed851008-076a-4670-beac-566b77de4329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GEngine Classes\Animation">
+      <UniqueIdentifier>{58fbb17d-e8a8-4805-bcf4-6dc80ab65f3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GEngine Classes\Effects">
+      <UniqueIdentifier>{4230fa17-52b6-4255-8771-033f07ac8ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GEngine Classes\Effects">
+      <UniqueIdentifier>{7a7455a4-2442-4b72-9dad-eb3dfe2d193a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game Classes\CubeTerrain">
+      <UniqueIdentifier>{eddc03d7-b6c8-4beb-921d-04840ba85979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game Classes\CubeTerrain">
+      <UniqueIdentifier>{ebc9fd68-c7c8-4887-9e23-001771070d26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FG_UIDCtrl.cpp">
+      <Filter>Файлы исходного кода\FG</Filter>
+    </ClCompile>
+    <ClCompile Include="GDevice.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GMaterial.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GInput.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GScene.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GTexture.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GSprite.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="funcs.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GWindow.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GBaseObject.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GObjectTransform.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GBuffer.cpp">
+      <Filter>Файлы исходного кода\UI Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GConfigMgr.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="G_GM_Player.cpp">
+      <Filter>Файлы исходного кода\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="G_BulletPhysics.cpp">
+      <Filter>Файлы исходного кода\GPlugins</Filter>
+    </ClCompile>
+    <ClCompile Include="G_PK_ZIP.cpp">
+      <Filter>Файлы исходного кода\GPlugins</Filter>
+    </ClCompile>
+    <ClCompile Include="zip\ioapi.c">
+      <Filter>Файлы исходного кода\GPlugins\__zip</Filter>
+    </ClCompile>
+    <ClCompile Include="zip\iowin32.c">
+      <Filter>Файлы исходного кода\GPlugins\__zip</Filter>
+    </ClCompile>
+    <ClCompile Include="zip\unzip.c">
+      <Filter>Файлы исходного кода\GPlugins\__zip</Filter>
+    </ClCompile>
+    <ClCompile Include="zip\zip.c">
+      <Filter>Файлы исходного кода\GPlugins\__zip</Filter>
+    </ClCompile>
+    <ClCompile Include="GXAudio.cpp">
+      <Filter>Файлы исходного кода\GSound</Filter>
+    </ClCompile>
+    <ClCompile Include="GSourceVoice.cpp">
+      <Filter>Файлы исходного кода\GSound</Filter>
+    </ClCompile>
+    <ClCompile Include="GBaseSound.cpp">
+      <Filter>Файлы исходного кода\GSound</Filter>
+    </ClCompile>
+    <ClCompile Include="GWAVSound.cpp">
+      <Filter>Файлы исходного кода\GSound</Filter>
+    </ClCompile>
+    <ClCompile Include="GAudioMgr.cpp">
+      <Filter>Файлы исходного кода\GSound</Filter>
+    </ClCompile>
+    <ClCompile Include="GD3DBuffer.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="G_GM_Hero.cpp">
+      <Filter>Файлы исходного кода\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GFaceArrayBuilder.cpp">
+      <Filter>Файлы исходного кода\Game Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="G_GM_Unit.cpp">
+      <Filter>Файлы исходного кода\Game Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FG_GM_Funcs.cpp">
+      <Filter>Файлы исходного кода\FG</Filter>
+    </ClCompile>
+    <ClCompile Include="GEffect.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GEffectPool.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GLight.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GObjectLoader.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="G_CT_Objects.cpp">
+      <Filter>Файлы исходного кода\Game Classes\CubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="G_CT_SaveMgr.cpp">
+      <Filter>Файлы исходного кода\Game Classes\CubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GCubeTerrain.cpp">
+      <Filter>Файлы исходного кода\Game Classes\CubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="G_CT_MapGenMgr.cpp">
+      <Filter>Файлы исходного кода\Game Classes\CubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="G_CT_SectorsMgr.cpp">
+      <Filter>Файлы исходного кода\Game Classes\CubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GFileStream.cpp">
+      <Filter>Файлы исходного кода\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="GPathFinder.cpp">
+      <Filter>Файлы исходного кода\Game Classes\CubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="G_GM_NPCMgr.cpp">
+      <Filter>Файлы исходного кода\Game Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GCamera.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GRenderTarget.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GShadowMapMgr.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="GInputLayout.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="G_CT_BufferMgr.cpp">
+      <Filter>Файлы исходного кода\Game Classes\CubeTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GMeshInstance.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GMeshObject.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GModel.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="G_VideoLib.cpp">
+      <Filter>Файлы исходного кода\GPlugins</Filter>
+    </ClCompile>
+    <ClCompile Include="GCommandParser.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_BaseObject.cpp">
+      <Filter>Файлы исходного кода\UI Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GInfoCollector.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="G_UI_MainArea.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Button.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_ButtonGrid.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_CheckBox.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Desktop.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Edit.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Image.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Label.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_ListBox.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Panel.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_ProgressBar.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_RadioButton.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_ScrollBar.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_ScrollList.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_TrackBar.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Window.cpp">
+      <Filter>Файлы исходного кода\UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="G_GM_NPCManager.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="GResourceManager.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GFont.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GBaseAnimation.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GBoneAnimation.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GMatrixAnimation.cpp">
+      <Filter>Файлы исходного кода\GEngine Classes\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FG_UIDCtrl.h">
+      <Filter>Заголовочные файлы\FG</Filter>
+    </ClInclude>
+    <ClInclude Include="GDefines.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GStructs.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="G_UI_MainArea.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="funcs.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GWindow.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GBaseObject.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GObjectTransform.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GBuffer.h">
+      <Filter>Заголовочные файлы\UI Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GConfigMgr.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="G_GM_Player.h">
+      <Filter>Заголовочные файлы\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GD3DBuffer.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="G_BulletPhysics.h">
+      <Filter>Заголовочные файлы\GPlugins</Filter>
+    </ClInclude>
+    <ClInclude Include="G_PK_ZIP.h">
+      <Filter>Заголовочные файлы\GPlugins</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\crypt.h">
+      <Filter>Заголовочные файлы\GPlugins\__zip</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\ioapi.h">
+      <Filter>Заголовочные файлы\GPlugins\__zip</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\iowin32.h">
+      <Filter>Заголовочные файлы\GPlugins\__zip</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\unzip.h">
+      <Filter>Заголовочные файлы\GPlugins\__zip</Filter>
+    </ClInclude>
+    <ClInclude Include="zip\zip.h">
+      <Filter>Заголовочные файлы\GPlugins\__zip</Filter>
+    </ClInclude>
+    <ClInclude Include="GXAudio.h">
+      <Filter>Заголовочные файлы\GSound</Filter>
+    </ClInclude>
+    <ClInclude Include="GSourceVoice.h">
+      <Filter>Заголовочные файлы\GSound</Filter>
+    </ClInclude>
+    <ClInclude Include="GBaseSound.h">
+      <Filter>Заголовочные файлы\GSound</Filter>
+    </ClInclude>
+    <ClInclude Include="GWAVSound.h">
+      <Filter>Заголовочные файлы\GSound</Filter>
+    </ClInclude>
+    <ClInclude Include="GAudioMgr.h">
+      <Filter>Заголовочные файлы\GSound</Filter>
+    </ClInclude>
+    <ClInclude Include="GTexture.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GDevice.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GInput.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GMaterial.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GScene.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GSprite.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="G_GM_Hero.h">
+      <Filter>Заголовочные файлы\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GFaceArrayBuilder.h">
+      <Filter>Заголовочные файлы\Game Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="G_GM_Unit.h">
+      <Filter>Заголовочные файлы\Game Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FG_GM_Funcs.h">
+      <Filter>Заголовочные файлы\FG</Filter>
+    </ClInclude>
+    <ClInclude Include="G_GM_Constants.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GEffect.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GEffectPool.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GLight.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GObjectLoader.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GConstants.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="G_GM_Structs.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GCubeTerrain.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="G_CT_SaveMgr.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="G_CT_MapGenMgr.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="G_CT_Objects.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="G_CT_SectorsMgr.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GFileStream.h">
+      <Filter>Заголовочные файлы\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="GPathFinder.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="G_GM_NPCMgr.h">
+      <Filter>Заголовочные файлы\Game Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="G_CT_CubeSector.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GCamera.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GRenderTarget.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GShadowMapMgr.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="GInputLayout.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="G_CT_BufferMgr.h">
+      <Filter>Заголовочные файлы\Game Classes\CubeTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GMeshInstance.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GMeshObject.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GModel.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="G_VideoLib.h">
+      <Filter>Заголовочные файлы\GPlugins</Filter>
+    </ClInclude>
+    <ClInclude Include="GCommandParser.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_BaseObject.h">
+      <Filter>Заголовочные файлы\UI Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GInfoCollector.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Button.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_ButtonGrid.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_CheckBox.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Desktop.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Edit.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Image.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Label.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_ListBox.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Panel.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_ProgressBar.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_RadioButton.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_ScrollBar.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_ScrollList.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_TrackBar.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_Window.h">
+      <Filter>Заголовочные файлы\UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="G_GM_NPCManager.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GResourceManager.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GFont.h">
+      <Filter>Заголовочные файлы\GEngine Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GBaseAnimation.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GBoneAnimation.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GMatrixAnimation.h">
+      <Filter>Заголовочные файлы\GEngine Classes\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="G_Resources.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

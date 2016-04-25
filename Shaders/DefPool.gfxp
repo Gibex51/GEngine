@@ -1,0 +1,94 @@
+//--------------------------------------------------------------------------------------
+#include "Lights.h"
+#include "Bones.h"
+
+#define MAX_LIGHTS 10
+#define MAX_BONES  100
+#define EPS        0.0001f
+
+#define VARTYPE_CUSTOM     0
+#define VARTYPE_MWORLD     1
+#define VARTYPE_MPROJ      2
+#define VARTYPE_MVIEW      3
+#define VARTYPE_LIGHT      4
+#define VARTYPE_RESOURCE   5
+#define VARTYPE_MVIEWPROJ  6
+
+struct VS_INPUT
+{
+    float3 Pos   : POSITION;
+	float4 Color : COLOR;
+	float2 Tex   : TEXCOORD;	
+    float3 Norm  : NORMAL;
+};
+
+struct PS_INPUT
+{
+    float4 Pos   : SV_POSITION;
+	float4 Color : COLOR0;
+	float2 Tex   : TEXCOORD0;
+    float3 Norm  : TEXCOORD1;
+	float4 PosH  : POSITION;
+};
+
+struct VS_INPUT_OP
+{
+    float3 Pos   : POSITION;
+	float2 Col   : COLOR;
+	float2 Tex   : TEXCOORD;	
+};
+
+struct PS_INPUT_OP
+{
+    float4 Pos   : SV_POSITION;
+	float2 Col   : COLOR0;
+	float2 Tex   : TEXCOORD0;
+	float4 PosH  : POSITION;
+};
+
+struct VS_INPUT_BONES
+{
+    float3 Pos   : POSITION;
+	float3 Norm  : NORMAL;	
+	float2 Tex   : TEXCOORD;	
+	float4 Color : COLOR;
+	float4 Weights : WEIGHTS;
+	uint4  Bones   : BONES;	
+};
+
+struct PS_INPUT_BONES
+{
+    float4 Pos      : SV_POSITION;
+	float4 Color    : COLOR0;
+	float2 Tex      : TEXCOORD0;
+	uint   TexIndex : TEXCOORD1;
+    float3 Norm     : TEXCOORD2;
+	float4 PosH     : POSITION;
+};
+
+struct VS_INPUT_LBONES
+{
+    float3 Pos     : POSITION;
+	float3 Norm    : NORMAL;
+	float2 Tex     : TEXCOORD;	
+	float4 Weights : WEIGHTS;
+	uint4  Bones   : BONES;	
+};
+
+struct PS_INPUT_LBONES
+{
+    float4 Pos      : SV_POSITION;
+	float3 Norm     : NORMAL;
+	float2 Tex      : TEXCOORD0;
+	uint   TexIndex : TEXCOORD1;
+};
+
+//--------------------------------------------------------------------------------------
+/*
+shared cbuffer cbShared
+{
+    int nLights                         <int vType = VARTYPE_CUSTOM; int vID = 1;> = 0;	
+    G_LIGHT_SET TestLight[MAX_LIGHTS]   <int vType = VARTYPE_LIGHT; int vID = 2;>;
+}
+*/
+//--------------------------------------------------------------------------------------

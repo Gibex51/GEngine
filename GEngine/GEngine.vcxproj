@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C3C7E463-DF60-482B-903D-EFF7204E018C}</ProjectGuid>
+    <RootNamespace>GEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files (x86)\Visual Leak Detector\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Program Files (x86)\Visual Leak Detector\lib\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files (x86)\Visual Leak Detector\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\Program Files (x86)\Visual Leak Detector\lib\Win32;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>false</StringPooling>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <StringPooling>true</StringPooling>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AssemblyDebug>false</AssemblyDebug>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FG_GM_Funcs.cpp" />
+    <ClCompile Include="GBaseAnimation.cpp" />
+    <ClCompile Include="GBoneAnimation.cpp" />
+    <ClCompile Include="GCamera.cpp" />
+    <ClCompile Include="GCommandParser.cpp" />
+    <ClCompile Include="GFileStream.cpp" />
+    <ClCompile Include="GInfoCollector.cpp" />
+    <ClCompile Include="GInputLayout.cpp" />
+    <ClCompile Include="GMatrixAnimation.cpp" />
+    <ClCompile Include="GMeshInstance.cpp" />
+    <ClCompile Include="GMeshObject.cpp" />
+    <ClCompile Include="GModel.cpp" />
+    <ClCompile Include="GObjectLoader.cpp" />
+    <ClCompile Include="funcs.cpp" />
+    <ClCompile Include="GAudioMgr.cpp" />
+    <ClCompile Include="GBaseObject.cpp" />
+    <ClCompile Include="GBuffer.cpp" />
+    <ClCompile Include="GConfigMgr.cpp" />
+    <ClCompile Include="GCubeTerrain.cpp" />
+    <ClCompile Include="GD3DBuffer.cpp" />
+    <ClCompile Include="GDevice.cpp" />
+    <ClCompile Include="GEffectPool.cpp" />
+    <ClCompile Include="GFaceArrayBuilder.cpp" />
+    <ClCompile Include="GFont.cpp" />
+    <ClCompile Include="GInput.cpp" />
+    <ClCompile Include="GLight.cpp" />
+    <ClCompile Include="GMaterial.cpp" />
+    <ClCompile Include="GObjectTransform.cpp">
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <ClCompile Include="GPathFinder.cpp" />
+    <ClCompile Include="GResourceManager.cpp" />
+    <ClCompile Include="GScene.cpp" />
+    <ClCompile Include="GBaseSound.cpp" />
+    <ClCompile Include="GShadowMapMgr.cpp" />
+    <ClCompile Include="GSourceVoice.cpp" />
+    <ClCompile Include="GSprite.cpp" />
+    <ClCompile Include="GTexture.cpp" />
+    <ClCompile Include="GEffect.cpp" />
+    <ClCompile Include="FG_UIDCtrl.cpp" />
+    <ClCompile Include="GUI_BaseObject.cpp" />
+    <ClCompile Include="GUI_Button.cpp" />
+    <ClCompile Include="GUI_ButtonGrid.cpp" />
+    <ClCompile Include="GUI_CheckBox.cpp" />
+    <ClCompile Include="GUI_Desktop.cpp" />
+    <ClCompile Include="GUI_Edit.cpp" />
+    <ClCompile Include="GUI_Image.cpp" />
+    <ClCompile Include="GUI_Label.cpp" />
+    <ClCompile Include="GUI_ListBox.cpp" />
+    <ClCompile Include="GUI_Panel.cpp" />
+    <ClCompile Include="GUI_ProgressBar.cpp" />
+    <ClCompile Include="GUI_RadioButton.cpp" />
+    <ClCompile Include="GUI_ScrollBar.cpp" />
+    <ClCompile Include="GUI_ScrollList.cpp" />
+    <ClCompile Include="GUI_TrackBar.cpp" />
+    <ClCompile Include="GUI_Window.cpp" />
+    <ClCompile Include="GWAVSound.cpp" />
+    <ClCompile Include="GWindow.cpp" />
+    <ClCompile Include="GXAudio.cpp" />
+    <ClCompile Include="G_BulletPhysics.cpp" />
+    <ClCompile Include="G_CT_BufferMgr.cpp" />
+    <ClCompile Include="G_CT_MapGenMgr.cpp" />
+    <ClCompile Include="G_CT_Objects.cpp" />
+    <ClCompile Include="G_CT_SaveMgr.cpp" />
+    <ClCompile Include="G_CT_SectorsMgr.cpp" />
+    <ClCompile Include="G_GM_Hero.cpp" />
+    <ClCompile Include="G_GM_NPCManager.cpp" />
+    <ClCompile Include="G_GM_NPCMgr.cpp" />
+    <ClCompile Include="G_GM_Player.cpp" />
+    <ClCompile Include="G_GM_Unit.cpp" />
+    <ClCompile Include="G_PK_ZIP.cpp" />
+    <ClCompile Include="G_UI_MainArea.cpp" />
+    <ClCompile Include="G_VideoLib.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="zip\ioapi.c" />
+    <ClCompile Include="zip\iowin32.c" />
+    <ClCompile Include="zip\unzip.c" />
+    <ClCompile Include="zip\zip.c" />
+    <ClCompile Include="GRenderTarget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FG_GM_Funcs.h" />
+    <ClInclude Include="GBaseAnimation.h" />
+    <ClInclude Include="GBoneAnimation.h" />
+    <ClInclude Include="GCamera.h" />
+    <ClInclude Include="GCommandParser.h" />
+    <ClInclude Include="GFileStream.h" />
+    <ClInclude Include="GInfoCollector.h" />
+    <ClInclude Include="GInputLayout.h" />
+    <ClInclude Include="GMatrixAnimation.h" />
+    <ClInclude Include="GMeshInstance.h" />
+    <ClInclude Include="GMeshObject.h" />
+    <ClInclude Include="GModel.h" />
+    <ClInclude Include="GObjectLoader.h" />
+    <ClInclude Include="funcs.h" />
+    <ClInclude Include="GAudioMgr.h" />
+    <ClInclude Include="GBaseObject.h" />
+    <ClInclude Include="GBuffer.h" />
+    <ClInclude Include="GConfigMgr.h" />
+    <ClInclude Include="GConstants.h" />
+    <ClInclude Include="GCubeTerrain.h" />
+    <ClInclude Include="GD3DBuffer.h" />
+    <ClInclude Include="GDefines.h" />
+    <ClInclude Include="GDevice.h" />
+    <ClInclude Include="GEffectPool.h" />
+    <ClInclude Include="GFaceArrayBuilder.h" />
+    <ClInclude Include="GFont.h" />
+    <ClInclude Include="GInput.h" />
+    <ClInclude Include="GLight.h" />
+    <ClInclude Include="GMaterial.h" />
+    <ClInclude Include="GObjectTransform.h" />
+    <ClInclude Include="GPathFinder.h" />
+    <ClInclude Include="GRenderTarget.h" />
+    <ClInclude Include="GResourceManager.h" />
+    <ClInclude Include="GScene.h" />
+    <ClInclude Include="GBaseSound.h" />
+    <ClInclude Include="GShadowMapMgr.h" />
+    <ClInclude Include="GSourceVoice.h" />
+    <ClInclude Include="GSprite.h" />
+    <ClInclude Include="GStructs.h" />
+    <ClInclude Include="GTexture.h" />
+    <ClInclude Include="GEffect.h" />
+    <ClInclude Include="FG_UIDCtrl.h" />
+    <ClInclude Include="GUI_BaseObject.h" />
+    <ClInclude Include="GUI_Button.h" />
+    <ClInclude Include="GUI_ButtonGrid.h" />
+    <ClInclude Include="GUI_CheckBox.h" />
+    <ClInclude Include="GUI_Desktop.h" />
+    <ClInclude Include="GUI_Edit.h" />
+    <ClInclude Include="GUI_Image.h" />
+    <ClInclude Include="GUI_Label.h" />
+    <ClInclude Include="GUI_ListBox.h" />
+    <ClInclude Include="GUI_Panel.h" />
+    <ClInclude Include="GUI_ProgressBar.h" />
+    <ClInclude Include="GUI_RadioButton.h" />
+    <ClInclude Include="GUI_ScrollBar.h" />
+    <ClInclude Include="GUI_ScrollList.h" />
+    <ClInclude Include="GUI_TrackBar.h" />
+    <ClInclude Include="GUI_Window.h" />
+    <ClInclude Include="GWAVSound.h" />
+    <ClInclude Include="GWindow.h" />
+    <ClInclude Include="GXAudio.h" />
+    <ClInclude Include="G_BulletPhysics.h" />
+    <ClInclude Include="G_CT_BufferMgr.h" />
+    <ClInclude Include="G_CT_CubeSector.h" />
+    <ClInclude Include="G_CT_MapGenMgr.h" />
+    <ClInclude Include="G_CT_Objects.h" />
+    <ClInclude Include="G_CT_SaveMgr.h" />
+    <ClInclude Include="G_CT_SectorsMgr.h" />
+    <ClInclude Include="G_GM_Constants.h" />
+    <ClInclude Include="G_GM_Hero.h" />
+    <ClInclude Include="G_GM_NPCManager.h" />
+    <ClInclude Include="G_GM_NPCMgr.h" />
+    <ClInclude Include="G_GM_Player.h" />
+    <ClInclude Include="G_GM_Structs.h" />
+    <ClInclude Include="G_GM_Unit.h" />
+    <ClInclude Include="G_PK_ZIP.h" />
+    <ClInclude Include="G_UI_MainArea.h" />
+    <ClInclude Include="G_VideoLib.h" />
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="zip\crypt.h" />
+    <ClInclude Include="zip\ioapi.h" />
+    <ClInclude Include="zip\iowin32.h" />
+    <ClInclude Include="zip\unzip.h" />
+    <ClInclude Include="zip\zip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="G_Resources.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
